@@ -6,7 +6,9 @@ This project has essentially 2 components a Machine learning model and a VR Golf
 
 The goal of this project was to try and capture the full swing of the golf club as people do in real life, but due to low sampling rates and collison issues in unity physics engine that motion is not translated seamlessly in the VR setting.
 
-To address this issue I developed an LSTM model trained on trajectories pf the golf club head extracted from professional golf player swing clips. The model was incorporated in the VR app on the clubHead gameobject by exporting the pytorch model as an ONNX model.
+To address this issue I developed an LSTM model(GolfClubTraining.ipynb has the full code to achieve the model.) trained on trajectories pf the golf club head extracted from professional golf player swing clips. The model was incorporated in the VR app on the clubHead gameobject by exporting the pytorch model as an ONNX model.
+
+Dataset - https://github.com/wmcnally/GolfDB?tab=readme-ov-file
 
 ## Gameplay
 
