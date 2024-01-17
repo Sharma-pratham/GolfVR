@@ -9,6 +9,7 @@
 ### To address this issue I developed an LSTM model trained on trajectories pf the golf club head extracted from professional golf player swing clips. The model was incorporated in the VR app on the clubHead gameobject by exporting the pytorch model as an ONNX model.
 
 ## Gameplay
-Full vide link - https://drive.google.com/file/d/1PbNP06fnPYvYvsk-fOkW2E-Kixntb666/view?usp=drive_link
+
 https://github.com/Sharma-pratham/GolfVR/assets/44340689/517c7bda-c9c5-4115-9379-317b93a97d5c
 
+Full vide link - https://drive.google.com/file/d/1PbNP06fnPYvYvsk-fOkW2E-Kixntb666/view?usp=drive_link
